@@ -1,0 +1,150 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+    background-image: url(http://zmeinogorsk.ru/realty/img/background-top.jpg);
+}
+
+div {
+    margin: 10px;
+    border: 0.1px solid;
+    border-radius: 10px;
+    height: 80px;
+}
+
+header {
+    height: 30px;
+}
+
+#sidebar {
+    float: left;
+    width: 210px;
+    height: 465px;
+    margin: 16px auto;
+    font-size: 16px;
+    color: black;
+}
+
+#main {
+    background-color: #e1f2de;
+    opacity: 0.4;
+    height: 445px;
+    margin-left: 230px;
+    margin-right: 40px;
+    border-radius: 20px;
+}
+
+p {
+    margin: 20px 20px;
+    text-indent: 20px;
+    font-size: 18px;
+    padding: 15px;
+    color: black;
+    font-weight: 700;
+    text-align: justify;
+}
+
+footer {
+    position: fixed;
+    bottom: 5px;
+    padding: 10px;
+    background: #d2d4d8
+    color: #fff;
+    width: 97.5%;
+    height: 95px;
+}
+
+ul {
+    margin: 10px;
+    margin-right: 150px;
+    float: left;
+}
+
+li {
+    display: inline-block;
+    background: #CA181A;
+    margin-right: 15px;
+    transform: skewX(-30deg);
+    font-weight: 600;
+}
+
+a {
+    color: #fff;
+    display: block;
+    padding: 20px 40px;
+    text-decoration: none;
+    transform: skewX(30deg);
+}
+
+li:hover {
+    background: #333;
+    transition: 1s;
+}
+
+ol li {
+    display: list-item;
+    padding: 13px;
+    background: none;
+    font-family: 'Pacifico', cursive;
+}
+
+ol li:hover {
+    background: none;
+    color: red;
+    transition: 1s;
+}
+
+.leftFoot {
+    float: left;
+    width: 50%;
+}
+
+.rightFoot {
+    float: right;
+    margin-right: 60px;
+}
+
+input {
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+textarea {
+    margin: 5px auto;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.ico {
+    color: red;
+}
+
+.iFab {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 20px;
+    font-size: 50px;
+    color: black;
+}
+
+    .iFab:hover {
+        color: red;
+        transition: 1s;
+    }
+
+button {
+    float: right;
+    text-align: center;
+    margin: 0 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+}
+
+.moscowImg {
+    float: right;
+    width: 150px;
+    margin-left: 10px;
+}
+
